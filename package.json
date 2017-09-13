@@ -7,11 +7,16 @@
     "test": "test"
   },
   "dependencies": {
-    "web3": "^0.18.4"
+    "web3": "^0.18.4",
+    "ethereumjs-testrpc": "^4.1.1",
+    "express": "^4.15.4",
+    "truffle": "^3.4.9"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "truffle test --network development"
+    "test": "truffle test --network development",
+    "truffle": "truffle",
+    "testrpc": "testrpc"
   },
   "repository": {
     "type": "git",
